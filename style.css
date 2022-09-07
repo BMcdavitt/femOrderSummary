@@ -28,8 +28,14 @@ p {
   color: hsl(224, 23%, 55%);
 }
 
-a:hover {
+a {
   text-decoration: none;
+  border-bottom: 1px solid;
+  transition: all 0.5s;
+}
+
+a:hover {
+  border-color:hsl(225, 100%, 98%);
   color: hsl(224, 23%, 55%);
 }
 
@@ -104,6 +110,8 @@ a:hover {
   width: 70%;
   text-align: center;
   color: hsl(225, 100%, 98%);
+  border: none;
+  transition: all 0.5s;
 }
 
 .button:hover {
@@ -115,6 +123,7 @@ a:hover {
   margin: 1rem;
   font-weight: bold;
   color: hsl(224, 23%, 55%);
+  transition: all 0.5s
 }
 
 .lowPriorityButton:hover {
